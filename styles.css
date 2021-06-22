@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.color_changer_button {
+  margin-top: 1em;
+  padding: 0.7em 0.8em;
+  color: white;
+  background: transparent;
+  outline-style: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.color_changer_button:hover {
+  background: white;
+  color: black;
+}
